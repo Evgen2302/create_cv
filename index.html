@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Evgeny Medvedev</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="info">
+            <img src="avatar.jpg" alt="Здесь должна быть моя аватарка" class="avatar">
+            <div class="info-text">
+            <h1> Евгений Медведев</h1>
+            <p>Занимаюсь освоением специальности <strong>Front-end developer</strong> </p>
+            <p>Люблю свою семью, путешествия, новые знакомства, саморазвитие.</p>
+            <p>Эту страницу сверстал html + css</p>
+            
+            <!-- <div class="contacts"> -->
+                <h4>Мои контакты</h4>
+                <p>
+                <a href="https://vk.com/evgenymedvedev" target="_blank">Вконтакте</a>
+                |
+                <a href="https://t.me/men2302" target="_blank">Телеграм</a>
+                </p>
+            </div>
+            <!-- </div>   -->
+        </div>
+        
+        <div class="card bg-yellow">
+            <h2>Опыт (навки)</h2>
+            <table class="table">
+                <tr>
+                    <strong>
+                    <th>Курсы</th>
+                    <th>Год</th>
+                    <th>Опыт</th>
+                    </strong>
+                </tr>
+                <tr>
+                    <td>Основы html и css </td>
+                    <td>Сентябрь 2022</td>
+                    <td>Верстка</td>
+                </tr>
+                <tr>
+                    <td>Основы python</td>
+                    <td>Май 2021</td>
+                    <td>Решение задач курса</td>
+                </tr>
+                <tr>
+                    <td>ASMR копирайтинг</td>
+                    <td>Август 2022</td>
+                    <td>Работал в компании</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="card bg-green">
+            <h2>Мои хобби и увлечения</h2>
+            <ol class="list">
+                <li>Кодинг</li>
+                <li>Спорт</li>
+                <li>Прогулки</li>
+                <li>Чтение книг</li>
+            </ol>
+        </div>
+        
+        <!-- <div class="card bg-red"> -->
+            <h2 class="form-lable">Форма обратной связи</h2>
+            <form>
+            <div class="row">
+                <div class="form-group"> 
+                    <label for="name"> Ваше имя:</label>
+                    <input type="text" id="name" placeholder="Введите ваше имя">
+                </div>
+                <div class="form-group">
+                    <label for="email"> Ваш emal:</label>
+                    <input type="email" id="email" placeholder="Введите ваш emal">
+                </div>
+                <div class="form-group">
+                    <label for="tel"> Ваш номер телефона:</label>
+                    <input type="tel" id="tel" placeholder="Введите номер телефона">
+                </div>
+            </div>
+                <div class="form-group">
+                    <label for="text"> Комментарий:</label>
+                    <textarea id="text" placeholder="Введите текст"></textarea>
+                </div>
+                <input class="btn" type="submit" value="Связаться">
+            </form>
+    </div>
+</body>
+</html>
